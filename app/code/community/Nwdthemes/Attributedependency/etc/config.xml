@@ -22,7 +22,7 @@
 			<nwdthemes_attributedependency_setup>
 				<setup>
 					<module>Nwdthemes_Attributedependency</module>
-					<class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
 				</setup>
 				<connection>
 					<use>core_setup</use>
