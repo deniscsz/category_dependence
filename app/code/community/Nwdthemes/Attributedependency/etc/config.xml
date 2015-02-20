@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Nwdthemes_Attributedependency>
+			<version>1.0.0</version>
+		</Nwdthemes_Attributedependency>
+	</modules> 
+
+	<global>
+		<blocks>
+			<attributedependency>
+				<class>Nwdthemes_Attributedependency_Block</class>
+			</attributedependency>
+		</blocks>
+		<helpers>
+			<attributedependency>
+				<class>Nwdthemes_Attributedependency_Helper</class>
+			</attributedependency>
+		</helpers>
+		<resources>
+			<nwdthemes_attributedependency_setup>
+				<setup>
+					<module>Nwdthemes_Attributedependency</module>
+					<class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</nwdthemes_attributedependency_setup>
+		</resources>
+	</global>
+
+	<adminhtml>
+		<layout>
+			<updates>
+				<attributedependency>
+					<file>nwdthemes/attributedependency.xml</file>
+				</attributedependency>
+			</updates>
+		</layout>
+	</adminhtml>
+
+</config>
